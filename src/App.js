@@ -17,7 +17,7 @@ function App() {
         type="text" 
         onChange={(el) => {
           console.log(el.target.value)
-          setRole(el.target.value);
+          setRole(el.target.value); 
         }}
          />
          <Employee name="Kevin" role="Cross platform app developer"/>
